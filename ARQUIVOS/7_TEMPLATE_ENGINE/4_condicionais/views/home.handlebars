@@ -1,0 +1,6 @@
+Seja bem vindo ao site!
+
+{{#if auth}}
+  <p>O nome do usuário é {{usuario.nome}} {{usuario.sobrenome}} e ele tem {{usuario.idade}} </p>
+    Você está autenticado, <a href="/dashboard">Clique aqui</a> para acessar a área de membros.
+{{/if}}
